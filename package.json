@@ -1,0 +1,10 @@
+{
+  "name": "blockchain-research-system",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "pip install -r requirements.txt && python main.py",
+    "start:web": "pip install -r requirements.txt && streamlit run src/app.py",
+    "test": "python -m pytest tests/"
+  }
+}
